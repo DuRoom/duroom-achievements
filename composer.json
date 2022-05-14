@@ -1,0 +1,40 @@
+{
+  "name": "duroom/duroom-achievements",
+  "description": "Adds customized achievements to your forum.",
+  "keywords": [
+    "duroom",
+    "achievements",
+    "trophies",
+    "rewards"
+  ],
+  "type": "duroom-extension",
+  "license": "GPL-3.0-or-later",
+  "support": {
+    "issues": "https://github.com/DuRoom/duroom-achievements/issues",
+    "source": "https://github.com/DuRoom/duroom-achievements"
+  },
+  "require": {
+    "duroom/core": "^1.2"
+  },
+  "authors": [
+    {
+      "name": "NKDuy",
+      "email": "kn145660@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DuRoom\\Achievements\\": "src/"
+    }
+  },
+  "extra": {
+    "duroom-extension": {
+      "title": "Achievements",
+      "icon": {
+        "name": "fas fa-trophy",
+        "backgroundColor": "#ffea7b",
+        "color": "#de8e00"
+      }
+    }
+  }
+}

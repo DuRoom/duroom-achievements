@@ -1,0 +1,16 @@
+{
+  "name": "@duroom/duroom-achievements",
+  "description": "Achievements",
+  "version": "0.3.1",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {},
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "duroom-webpack-config": "^2.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
